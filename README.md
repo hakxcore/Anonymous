@@ -1,5 +1,7 @@
 # Anonymous
 Hello there <strong>This</strong> <i>script </i>  is for fun.
+<p>Still only working on termux!</p>
+<p>Updating.....for Debian os.</p>
 <h3>Here is How To Use it</h3>
 <div style = "font-family:courier;">
 <ol>
