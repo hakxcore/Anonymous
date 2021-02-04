@@ -15,6 +15,7 @@ Hello there <strong>This</strong> <i>script </i>  is for fun.
   <li>sh Anonymous.sh "your_name"</li>
 </ol>
 </div>
+To stop 'ctrl+c'
 <!--<div>
     <svg style = "
     transform: scale(0.4);
