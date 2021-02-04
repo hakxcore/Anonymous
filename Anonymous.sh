@@ -2,6 +2,7 @@
 #!/bin/bash
 #for (( var=0; var<100; var++ ))
 apt install espeak
+clear
 var=10
 var++
 until [ $var -lt 10 ]
