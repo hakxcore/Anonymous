@@ -1,13 +1,16 @@
-#Code by MukeshKumarCharak 
+#Code by MukeshKumarCharak
 #!/bin/bash
-#for (( var=0; var<100; var++ ))
+RED="$(printf '\033[31m')"                                                     
 apt install espeak
-clear
-var=10
-var++
-until [ $var -lt 10 ]
+apt install pv
+until [ 1 == 1 ]                                                          
 do
-    espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. but let me firstly. tell you who is. our god father. we do not tell their name. openly but we tell to our enymies. our god father is. mister $1. we are warning you. otherwise expect us. fuck you"
+    espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. b\
+ut let me firstly. tell you who is. our god father. we do not tell their name.\
+ openly but we tell to our enymies. our god father is. mister $1. we are warni\
+ng you. otherwise expect us. fuck you" | echo $RED "Hello we are anonymous. Do\
+ not mess with us. but let me firstly. tell you who is. our god father. we do \
+not tell their name. openly but we tell to our enymies. our god father is. mis\
+ter $1. we are warning you. otherwise expect us. fuck you" | pv -qL 15
     sleep 1s
 done
-
