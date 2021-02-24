@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MUKESHKUMAR2001/Anonymous/master/media/imges/anonymous.png" width="128" height="128"/></p>
+  <img src="https://raw.githubusercontent.com/MUKESHKUMAR2001/Anonymous/main/media/anonymous.png" width="150" height="150"/></p>
 <p>Still only working on termux!</p>
 <p>Updating.....for Debian os.</p>
 <h3>Here is How To Use it</h3>
