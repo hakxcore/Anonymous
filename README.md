@@ -26,8 +26,22 @@
 ## Here is How To Use
   
   ```bash
+  > cd Anonymous
+  > chmod +x install.sh
+  > ./install.sh
+  ```
+<div>
+<p>Then choose your os(system)</p>
+  <ul>
+    <li>1 for Termux</li>
+    <li>2 for Kali Linux or Ubantu</li>
+  </ul>
+</div>
+<p>Then run this command</p>
+  ```bash
   > anonymous <your_name>
   ```
+  
 ## <Strong>'ctrl+c'</strong> to Stop
 <!--<div>
     <svg style = "
