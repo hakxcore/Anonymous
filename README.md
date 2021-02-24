@@ -23,19 +23,10 @@
   ```bash
   > git clone https://github.com/MUKESHKUMAR2001/Anonymous
   ```
-<p>Still only working on termux! Updating.....for Debian os.</p>
 <h3>Here is How To Use it</h3>
   
   ```bash
-  > cd Anonymous
-  > chmod 755 Anonymous.sh
-  > ./Anonymous.sh "your_name"
-  ```
-  <h2>or</h2>
-
-```bash
-  > cd Anonymous
-  > sh Anonymous.sh "your_name"
+  > anonymous <your_name>
   ```
 To stop 'ctrl+c'
 <!--<div>
