@@ -23,12 +23,12 @@
   ```bash
   > git clone https://github.com/MUKESHKUMAR2001/Anonymous
   ```
-<h3>Here is How To Use it</h3>
+##Here is How To Use
   
   ```bash
   > anonymous <your_name>
   ```
-To stop 'ctrl+c'
+<Strong>'ctrl+c'</strong> to stop
 <!--<div>
     <svg style = "
     transform: scale(0.4);
