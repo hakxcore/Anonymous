@@ -28,7 +28,7 @@
   ```bash
   > anonymous <your_name>
   ```
-<Strong>'ctrl+c'</strong> to stop
+<Strong>'ctrl+c'</strong> to Stop
 <!--<div>
     <svg style = "
     transform: scale(0.4);
