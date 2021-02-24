@@ -1,4 +1,3 @@
-#Code by MukeshKumarCharak
 #!/bin/bash
 ##   Author: Mukesh Kumar
 ##    Email: mukeshkumarcharak@gmail.com
@@ -22,10 +21,10 @@ CYANBG="$(printf '\033[46m')"
 WHITEBG="$(printf '\033[47m')"
 BLACKBG="$(printf '\033[40m')"
 RESETBG="$(printf '\e[0m\n')"
-BLINK="$(printf '\033[5;31m')"                                                    
+BLINK="$(printf '\033[5;31m')"
 echo """$REDBG
 
-                               %@@@@@@@@@@@@@@@@@(                              
+                               %@@@@@@@@@@@@@@@@@                               
                         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                       
                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                   
                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
@@ -56,25 +55,59 @@ echo """$REDBG
                     @@@@@@@@@(                     @@@@@@@@@@                   
                         /@@@@                       @@@@                        
 $RESETBG"""
-echo """$WHITE
-                             "Author: Mukesh Kumar"
-                              "Email: mukeshkumarcharak@gmail.com"
-                            "Twitter: @mukeshkumarchrk"
-                          "Instagram: @mukeshkumar"
+echo """$GREEN
+                     "Author: Mukesh Kumar"
+                      "Email: mukeshkumarcharak@gmail.com"
+                    "Twitter: @mukeshkumarchrk"
+                  "Instagram: @mukeshkumar"
 $RESETBG"""
 echo ""
-until [ 1 == 1 ]                                                          
-do
-	echo "__________________________________________________________"
-	echo ""
-	echo "                        ANONYMOUS                         "
-	echo "__________________________________________________________"
-    espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. b\
-ut let me firstly. tell you who is. our god father. we do not tell their name.\
- openly but we tell to our enymies. our god father is. mister $1. we are warni\
-ng you. otherwise expect us. fuck you" | echo $BLINK"Hello we are anonymous. Do\
- not mess with us. but let me firstly. tell you who is. our god father. we do \
-not tell their name. openly but we tell to our enymies. our god father is. mis\
-ter $1. we are warning you. otherwise expect us. fuck you"$RESETBG | pv -qL 15
-    sleep 1s
-done
+echo ""
+echo "-----------------------------CHOOSE ONE------------------------------"
+echo ""
+echo "[1] Termux"
+echo "[2] Kali Linux or Ubantu"
+read -p "Enter your choice:" choice
+case $choice in 
+	1)
+		echo "Termux"
+		apt install espeak -y
+		apt install pv -y
+    mv Anonymous.sh anonymous
+    chmod +x anonymous
+    mv anonymous /data/data/com.termux/files/usr/bin
+    rm -rf anonymous
+    echo "Installing...."
+    sleep 3s
+    echo "--------------------------------"
+    echo "    Installation Successfull"
+    echo "--------------------------------"
+    echo "now run: anonymous <your_name>"
+		cd ..
+    rm -rf Anonymous
+    ;;
+  2)
+    echo "Kali linux or Ubantu"
+    sudo apt install espeak -y
+    sudo apt install pv -y
+    mv Anonymous.sh anonymous
+    chmod +x anonymous
+    sudo mv anonymous /bin
+    echo "Installing...."
+    sleep 3s
+    echo "--------------------------------"
+    echo "    Installation Successfull"
+    echo "--------------------------------"
+    echo "now rum: anonymous <your_name>"
+    cd ..
+    rm -rf Anonymous
+    ;;
+  *)
+    echo "It seems you entered Wrong Input" | pv -qL 10
+    sleep 2s
+    echo "Try again....." | pv -qL 10
+    sleep 2s
+    clear
+    sh install.sh
+    ;;
+esac
