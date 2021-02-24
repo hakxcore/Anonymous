@@ -38,6 +38,7 @@
   </ul>
 </div>
 <p>Then run this command</p>
+  
   ```bash
   > anonymous <your_name>
   ```
