@@ -37,7 +37,7 @@
     <li>2 for Kali Linux or Ubantu</li>
   </ul>
   
-  ## Then run this command
+  ## Then run this👇 command
   
   ```bash
   > anonymous <your_name>
