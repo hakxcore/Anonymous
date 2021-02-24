@@ -69,10 +69,10 @@ echo "[1] Termux"
 echo "[2] Kali Linux or Ubantu"
 read -p "Enter your choice:" choice
 case $choice in 
-	1)
-		echo "Termux"
-		apt install espeak -y
-		apt install pv -y
+  1)
+    echo "Termux"
+    apt install espeak -y
+    apt install pv -y
     mv Anonymous.sh anonymous
     chmod +x anonymous
     mv anonymous /data/data/com.termux/files/usr/bin
