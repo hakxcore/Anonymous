@@ -17,24 +17,25 @@
 <a href="https://github.com/MUKESHKUMAR2001/Anonymous/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MUKESHKUMAR2001/Anonymous?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="UNMAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
-## Clone this project
+  # Clone this project
+  
   ```bash
-> git clone https://github.com/MUKESHKUMAR2001/Anonymous
-```
+  > git clone https://github.com/MUKESHKUMAR2001/Anonymous
+  ```
 <p>Still only working on termux! Updating.....for Debian os.</p>
 <h3>Here is How To Use it</h3>
 <div style = "font-family:courier;">
-<ol>
-  <li>cd Anonymous</li>
-  <li>chmod 755 Anonymous.sh</li>
-  <li>./Anonymous.sh "your_name"</li>
-</ol>
+  
+  ```bash
+  > cd Anonymous
+  > chmod 755 Anonymous.sh
+  > ./Anonymous.sh "your_name"
+  ```
   <h2>or</h2>
-<ol>
-  <li>cd Anonymous</li>
-  <li>sh Anonymous.sh "your_name"</li>
-</ol>
-</div>
+  ```bash
+  > cd Anonymous
+  > sh Anonymous.sh "your_name"
+  ```
 To stop 'ctrl+c'
 <!--<div>
     <svg style = "
