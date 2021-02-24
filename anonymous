@@ -1,0 +1,4 @@
+#!/bin/bash
+cd 
+cd /data/data/com.termux/files/usr/tmp && sh Anonymous.sh $1
+cd
