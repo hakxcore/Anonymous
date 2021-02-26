@@ -50,7 +50,8 @@
    
    <p>Now at least give a fuckin Star</p>
    <strong>For Contributors "Welcome from Heart Sar"</strong>
-## <Strong>'ctrl+c'</strong> to Stop
+
+  ## <Strong>'ctrl+c'</strong> to Stop
 <!--<div>
     <svg style = "
     transform: scale(0.4);
