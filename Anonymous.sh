@@ -1,9 +1,9 @@
-#Code by MukeshKumarCharak
+#Code by Mukesh Kumar
 #!/bin/bash
 ##   Author: Mukesh Kumar
 ##    Email: mukeshkumarcharak@gmail.com
 ##   twiter: @mukeshkumarchrk
-##Instagram: @mukeshkumar
+##Instagram: @mukeshkumarcharak
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  
 GREEN="$(printf '\033[32m')"  
