@@ -31,13 +31,13 @@
   > ./install.sh
   ```
   
-  ## Choose your os(system)
+  ## Choose one according to you
   <ul>
     <li>1 for Termux</li>
-    <li>2 for Kali Linux or Ubantu</li>
+    <li>2 for Kali Linux or Ubuntu</li>
   </ul>
   
-  ## For Kali or Ubantu run this👇 command
+  ## For Kali or Ubuntu run this👇 command
   
   ```bash
   > anonymous <your_name>
