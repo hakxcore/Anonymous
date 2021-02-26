@@ -21,7 +21,7 @@
 ## Clone this project
   
   ```bash
-  > git clone https://github.com/MUKESHKUMAR2001/Anonymous
+  > git clone https://github.com/hakxcore/Anonymous
   ```
 ## Here is How To Use
   
