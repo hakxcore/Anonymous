@@ -2,7 +2,7 @@
 ##   Author: Mukesh Kumar
 ##    Email: mukeshkumarcharak@gmail.com
 ##   twiter: @mukeshkumarchrk
-##Instagram: @mukeshkumar
+##Instagram: @mukeshkumarcharak
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  
 GREEN="$(printf '\033[32m')"  
@@ -59,7 +59,7 @@ echo """$GREEN
                      "Author: Mukesh Kumar"
                       "Email: mukeshkumarcharak@gmail.com"
                     "Twitter: @mukeshkumarchrk"
-                  "Instagram: @mukeshkumar"
+                  "Instagram: @mukeshkumarcharak"
 $RESETBG"""
 echo ""
 echo ""
@@ -73,18 +73,14 @@ case $choice in
     echo "Termux"
     apt install espeak -y
     apt install pv -y
-    mv Anonymous.sh anonymous
-    chmod +x anonymous
-    mv anonymous /data/data/com.termux/files/usr/bin
-    rm -rf anonymous
     echo "Installing...."
     sleep 3s
     echo "--------------------------------"
     echo "    Installation Successfull"
     echo "--------------------------------"
-    echo "now run: anonymous <your_name>"
-		cd ..
-    rm -rf Anonymous
+    echo "now run: sh Anonymoush.sh <Your_name>"
+    sleep 10s
+    clear
     ;;
   2)
     echo "Kali linux or Ubantu"
