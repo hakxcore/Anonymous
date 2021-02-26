@@ -60,7 +60,7 @@ echo """$WHITE
                              "Author: Mukesh Kumar"
                               "Email: mukeshkumarcharak@gmail.com"
                             "Twitter: @mukeshkumarchrk"
-                          "Instagram: @mukeshkumar"
+                          "Instagram: @mukeshkumarcharak"
 $RESETBG"""
 echo ""
 until [ 1 == 1 ]                                                          
