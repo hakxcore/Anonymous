@@ -78,9 +78,8 @@ case $choice in
     echo "--------------------------------"
     echo "    Installation Successfull"
     echo "--------------------------------"
-    echo "now run: sh Anonymoush.sh <Your_name>"
-    sleep 10s
-    clear
+    echo "$GREEN Now run: sh Anonymoush.sh <Your_name>$RESETBG"
+    sleep 1s
     ;;
   2)
     echo "Kali linux or Ubantu"
@@ -88,6 +87,8 @@ case $choice in
     sudo apt install pv -y
     mv Anonymous.sh anonymous
     chmod +x anonymous
+    echo "-------------(Removing Previous file if any)------------"
+    sudo cd && sudo cd /bin && sduo rm -rf anonymous
     sudo mv anonymous /bin
     echo "Installing...."
     sleep 3s
