@@ -23,7 +23,7 @@ WHITEBG="$(printf '\033[47m')"
 BLACKBG="$(printf '\033[40m')"
 RESETBG="$(printf '\e[0m')"
 BLINK="$(printf '\033[5;31m')"                                                    
-echo """$REDBG
+echo """$RED
 
                                %@@@@@@@@@@@@@@@@@(                              
                         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                       
@@ -56,7 +56,7 @@ echo """$REDBG
                     @@@@@@@@@(                     @@@@@@@@@@                   
                         /@@@@                       @@@@                        
 $RESETBG"""
-echo """$GREEN
+echo """ $GREEN
                              "Author: Mukesh Kumar"
                               "Email: mukeshkumarcharak@gmail.com"
                             "Twitter: @mukeshkumarchrk"
