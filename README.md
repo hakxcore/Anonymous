@@ -37,12 +37,19 @@
     <li>2 for Kali Linux or Ubantu</li>
   </ul>
   
-  ## Then run this👇 command
+  ## For Kali or Ubantu run this👇 command
   
   ```bash
   > anonymous <your_name>
   ```
-  
+   ## For Termux run this👇 command
+   
+   ```bash
+   > sh Anonymous.sh <your_name>
+   ```
+   
+   <p>Now at least give a fuckin Star</p>
+   <strong>For Contributors "Welcome from Heart Sar"</strong>
 ## <Strong>'ctrl+c'</strong> to Stop
 <!--<div>
     <svg style = "
