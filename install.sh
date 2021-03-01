@@ -1,6 +1,6 @@
 #!/bin/bash
 ##   Author: Mukesh Kumar
-##    Email: mukeshkumarcharak@gmail.com
+##    Email: anonymous_mails_box@protonmail.ch
 ##   twiter: @mukeshkumarchrk
 ##Instagram: @mukeshkumarcharak
 ## ANSI colors (FG & BG)
