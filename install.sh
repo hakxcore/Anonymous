@@ -57,7 +57,7 @@ echo """$REDBG
 $RESETBG"""
 echo """$GREEN
                      "Author: Mukesh Kumar"
-                      "Email: mukeshkumarcharak@gmail.com"
+                      "Email: anonymous_mails_box@protonmail.ch"
                     "Twitter: @mukeshkumarchrk"
                   "Instagram: @mukeshkumarcharak"
 $RESETBG"""
