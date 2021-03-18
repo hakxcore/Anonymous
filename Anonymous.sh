@@ -5,6 +5,7 @@
 ##   twiter: @mukeshkumarchrk
 ##Instagram: @mukeshkumarcharak
 ## ANSI colors (FG & BG)
+clear
 RED="$(printf '\033[31m')"  
 GREEN="$(printf '\033[32m')"  
 ORANGE="$(printf '\033[33m')"  
@@ -63,12 +64,12 @@ echo """ $GREEN
                           "Instagram: @mukeshkumarcharak"
 $RESETBG"""
 echo ""
-until [ 1 == 1 ]                                                          
+while true
 do
-	echo "__________________________________________________________"
-	echo ""
-	echo "                        ANONYMOUS                         "
-	echo "__________________________________________________________"
+echo "_______________________________________________________________________________"
+echo ""
+echo "$REDBG                                   ANONYMOUS                                   $RESETBG"
+echo "_______________________________________________________________________________"
     espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. b\
 ut let me firstly. tell you who is. our god father. we do not tell their name.\
  openly but we tell to our enymies. our god father is. mister $1. we are warni\
