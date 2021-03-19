@@ -1,10 +1,9 @@
 #!/bin/bash
-echo "Choose According to you\c"
-ehco "[1] Kali Linux"
+echo "[1] Kali Linux"
 echo "[2] Termux"
+echo "Choose According to you: \c"
 read Choose
-if [[ $Choose == '1' ]]; 
-then
+if [ $Choose -eq 1 ]; then
   sudo apt update && apt upgrade -y
   sudo apt install espeak -y
   sudo apt install pv -y
@@ -21,8 +20,7 @@ then
   echo "anonymous <yourname>"
 fi
 
-if [[ $Choose == '2' ]]; 
-then
+if [ $Choose -eq 2 ]; then
   PREFIX='/data/data/com.termux/files/usr'
   apt update && apt upgrade -y
   apt install espeak -y
