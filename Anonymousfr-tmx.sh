@@ -1,9 +1,10 @@
-#Code by Mukesh Kumar
 #!/data/data/com.termux/files/usr/bin/bash
+## Code by Mukesh Kumar
 ##   Author: Mukesh Kumar
 ##    Email: anonymous_mails_box@protonmail.ch
 ##   twiter: @mukeshkumarchrk
 ##Instagram: @mukeshkumarcharak
+
 ## ANSI colors (FG & BG)
 clear
 RED="$(printf '\033[31m')"  
@@ -79,12 +80,14 @@ echo """ $GREEN
                                       "Instagram: @mukeshkumarcharak"
 $RESETBG"""
 echo ""
+#Loop for message
 while true
 do
 echo "_________________________________________________________________________________________________________"
 echo ""
 echo "$REDBG                                               ANONYMOUS                                                 $RESETBG"
 echo "_________________________________________________________________________________________________________"
+    #espeak is for sound with message and pv is for printing the text in words on screen
     espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. b\
 ut let me firstly. tell you who is. our god father. we do not tell their name.\
  openly but we tell to our enymies. our god father is. mister $1. we are warni\
