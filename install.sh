@@ -4,18 +4,17 @@ echo "[2] Termux"
 echo "Choose According to you: \c"
 read Choose
 if [ $Choose -eq 1 ]; then
-  sudo apt update && apt upgrade -y
   sudo apt install espeak -y
   sudo apt install pv -y
   echo "Removing previous file if any..."
-  rm -rf /bin/anonymous
-  mv Anonymous.sh anonymous
+  sudo rm -rf /bin/anonymous
+  sudo mv Anonymous.sh anonymous
   chmod +x anonymous
   echo "Installing..."
   sleep 5
-  mv anonymous /bin
+  sudo mv anonymous /bin
   cd ..
-  rm -rf Anonymous
+  sudo rm -rf Anonymous
   echo "Now run this command"
   echo "anonymous <yourname>"
 fi
