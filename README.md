@@ -1,3 +1,6 @@
+<p align="left">
+  <a><img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg" ></a>
+ </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/hakxcore/Anonymous/main/media/anonymous.png" width="200" height="200"/>
 </p>
