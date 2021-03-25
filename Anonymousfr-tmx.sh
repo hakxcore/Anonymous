@@ -88,11 +88,6 @@ echo ""
 echo "$REDBG                                               ANONYMOUS                                                 $RESETBG"
 echo "_________________________________________________________________________________________________________"
     #espeak is for sound with message and pv is for printing the text in words on screen
-    espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. b\
-ut let me firstly. tell you who is. our god father. we do not tell their name.\
- openly but we tell to our enymies. our god father is. mister $1. we are warni\
-ng you. otherwise expect us. fuck you" | echo $BLINK"Hello we are anonymous.\nDo\
- not mess with us.\nBut let me firstly tell you who is our GOD FATHER we do \
-not tell their name openly but we tell to our\nENYMIES our GOD FATHER is: Mr.$1.\nWe are warning you.\nOtherwise expect us.\n\nFUCK YOU"$RESETBG | pv -qL 15
+    espeak -p8 -ven -s150 -k20 "Hello we are anonymous. Do not mess with us. but let me firstly. tell you who is. our god father. we do not tell their name. openly but we tell to our enymies. our god father is. mister $1. we are warning you. otherwise expect us. Anonymous" | echo $BLINK"Hello we are Anonymous.Do not mess with us.But let me firstly tell you Who is our GOD FATHER we do not tell their name openly but we tell to our ENYMIES our GOD FATHER is: Mr.$1.We are warning you.Otherwise Expect Us.    --/ANONYMOUS"$RESETBG | pv -qL 15
     sleep 1s
 done
