@@ -19,7 +19,7 @@ RESETBG="$(printf '\e[0m')"
 BLINK="$(printf '\033[5;31m')"
 echo "$BLUE [1] Kali Linux $RESETBG"
 echo "$BLUE [2] Termux$RESETBG"
-read -p "$GREEN Choose According to you: $RESETBG" Choose 
+read -p $GREEN "Choose According to you: " $RESETBG Choose 
 if [ $Choose -eq 1 ]; then
   sudo apt install espeak -y
   sudo apt install pv -y
