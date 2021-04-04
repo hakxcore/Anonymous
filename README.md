@@ -18,7 +18,7 @@
 <a href="https://github.com/hakxcore/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/hakxcore/Anonymous?color=red&style=flat-square"></a>
 <a href="https://github.com/hakxcore/Anonymous/network/members"><img title="Forks" src="https://img.shields.io/github/forks/hakxcore/Anonymous?color=red&style=flat-square"></a>
 <a href="https://github.com/hakxcore/Anonymous/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/hakxcore/Anonymous?label=Watchers&color=blue&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
+<a href="#"><img title="UNMAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
 </p>
   
 ## Clone this project
