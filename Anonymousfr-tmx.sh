@@ -74,10 +74,10 @@ echo """$RED
 
 $RESETBG""" 
 echo """ $GREEN
-                                         "Author: Mukesh Kumar"
+                                         "Author: Anonymous"
                                           "Email: anonymous_mails_box@protonmail.ch"
                                         "Twitter: @hakxcore"
-                                      "Instagram: @mukeshkumarcharak"
+
 $RESETBG"""
 echo ""
 #Loop for message
