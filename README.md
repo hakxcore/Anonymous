@@ -42,4 +42,4 @@
    <p>Enjoy the view🤩</p>
    
    ### Credits
-<p>Copyright © 2021 by <a href="https://github.com/hakxcore">Hakxcore</a></p>
+<p>Copyright © 2021 by <a href="https://github.com/hakxcore">@Hakxcore</a></p>
