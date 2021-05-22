@@ -26,20 +26,21 @@
   ```bash
   > git clone https://github.com/hakxcore/Anonymous
   ```
-## Installation
+  
+  ## Installation
   
   ```bash
   > cd Anonymous
   > ./install
   ```
 
-   ## After Sucessful Installation run this👇 command
+  ## After Sucessful Installation run this👇 command
    
    ```bash
    > anonymous <your_name>
    ```
-   
-   <p>Enjoy the view🤩</p>
-   
-## Credits
+  
+  <p>Enjoy the view🤩</p>
+  
+  ## Credits
 Copyright © 2021 by <a href="https://github.com/hakxcore">Hakxcore</a>
