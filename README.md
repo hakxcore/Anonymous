@@ -8,7 +8,7 @@
 <a href="#"><img title="Anonymous" src="https://img.shields.io/badge/-%20ANONYMOUS-green%3FcolorA%3D%2523ff0000%26colorB%3D%2523017e40"></a>
 </p>
 <p align="center">
-  <a href="https://wa.me/+916006211429"><img title="Whatsapp" src="https://simpleicons.org/icons/whatsapp.svg" width="50" height="50"></a>
+  <a href="https://wa.me/+916006511429"><img title="Whatsapp" src="https://simpleicons.org/icons/whatsapp.svg" width="50" height="50"></a>
 </p>
 <p align="center">
 <a href="https://github.com/hakxcore"><img title="Author" src="https://img.shields.io/badge/Author-mukesh%20kumar-red.svg?style=for-the-badge&logo=github"></a>
