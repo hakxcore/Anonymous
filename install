@@ -17,24 +17,7 @@ WHITEBG="$(printf '\033[47m')"
 BLACKBG="$(printf '\033[40m')"
 RESETBG="$(printf '\e[0m')"
 BLINK="$(printf '\033[5;31m')"
-echo "
 
-
-                     ..    d$P              $$      `$b
-                    z$"   $$F               4$$      $$L
-                    $$   4$$                 $$.     4$$    ,z$P
-                    $$   $$'                 $$F      $$   $$$P
-                   $$$   $$                  $$f      $$   ""`
-                  $'$$; 4$F      .,_         $$'      $$
-                .$' ?$L 4$'   .d$" `?    zee $$   ,ec $F  d$F z$$   ,ce,.
-              .d$ee. $$ 4$'  d$"   z$  $$"  .$f.d$"  4$  4$$ 4$$P z$P?$$$
-             d$" "?$$d$,`$  $$F   z$f,$$    $$.$$    $P  $$% $$$4$"   4$$
-.$"%.     ,p$"        $$ $ J$$  z$$$ $$"  .$$ $$"  .$$C 4$P  $$$"     $$f
-`$.     ,d$b****q,     $.$ $$$$$P $$.$$b.$P4$ $$L.$P4$F $P  4$P     .$$"
- `?$$g$P"        "     `b' `??"   "?"^?F"   $$`?PF"  $$ "   P'     eF
-                                                      version: v0.0.1
-                                                      @hakxcore
-"
 echo "$BLUE [1] Kali Linux $RESETBG"
 echo "$BLUE [2] Termux$RESETBG"
 read -p ""$GREEN"Choose According to you:$RESETBG " Choose 
