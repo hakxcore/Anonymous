@@ -24,14 +24,14 @@
 ## Clone this project
   
   ```bash
-  > git clone https://github.com/hakxcore/Anonymous
+   git clone https://github.com/hakxcore/Anonymous
   ```
   
   ## Installation
   
   ```bash
-  > cd Anonymous
-  > ./install
+   cd Anonymous
+   ./install
   ```
 
   ## After Sucessful Installation run this👇 command
