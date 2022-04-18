@@ -37,7 +37,7 @@
   ## After Sucessful Installation run this👇 command
    
    ```bash
-   > anonymous <your_name>
+    anonymous <your_name>
    ```
   
   <p>Enjoy the view🤩</p>
