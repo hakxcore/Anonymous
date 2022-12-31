@@ -44,3 +44,8 @@
   
   ## Credits
 Copyright © 2021 by <a href="https://github.com/hakxcore">Hakxcore</a>
+  
+  
+<p align="center">
+  <img src="https://profile-counter.glitch.me/Anonymous/count.svg" />
+</p>
